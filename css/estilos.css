@@ -57,3 +57,40 @@ body{
   background-color: rgb(0, 0, 0,0.2); /*Uso el metodo de color rgb por que no se busca que cambie el color sino que baje o aumente su luz*/
 
 }
+.cover{
+  background-image: url('../img/portada.png');
+  background-position: center;
+  background-size: cover;
+}
+.cover-wrapper{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  text-align: center;
+}
+.cover-photo-container{
+  margin-bottom: 40px;
+}
+.cover-photo{
+  border-radius: 50%;
+}
+.cover-text{
+  background-color: rgba(20,200,100,0.7);
+  color: #ffffff;
+  display: inline-block;
+  padding: 30px;
+
+}
+
+.cover-title{
+  font-size: 40px;
+  margin: 10px;
+  text-transform: uppercase; /*PONE EN MAYUSCULA EL TEXTO*/
+
+}
+.cover-sub-title{
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
