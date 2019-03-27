@@ -94,3 +94,48 @@ body{
   text-transform: uppercase;
   margin-bottom: 0;
 }
+
+.title-underline{
+  color: #606060;
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-decoration: underline; /*SUBRALLADO*/
+
+}
+
+.title-underline span{
+  display: inline-block;
+  border-bottom: 8px solid #43A230;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cover-description{
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 18px;
+
+}
+.cover-description span{
+  color: #765bf6;
+  font-weight: 700;
+}
+.text-center{
+  text-align: center;
+}
+.btn-blue{
+  display:inline-block;
+  color: #43A230;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  border: 3px solid #43A230;
+  padding: 10px 15px;
+  transition: background-color 0.5s, 0.5s;
+
+}
+.btn-blue:hover{
+  background-color: #43A230;
+  color: #ffffff;
+}
