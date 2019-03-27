@@ -113,16 +113,23 @@ body{
 
 .cover-description{
   background-color: #ffffff;
-  padding: 10px;
+
   font-size: 18px;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
 
 }
 .cover-description span{
   color: #765bf6;
   font-weight: 700;
+
 }
 .text-center{
   text-align: center;
+
+  padding-bottom: 10px;
+
 }
 .btn-blue{
   display:inline-block;
