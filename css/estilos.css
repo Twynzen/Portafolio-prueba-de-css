@@ -113,11 +113,11 @@ body{
 
 .cover-description{
   background-color: #ffffff;
-
+  padding: 10px;
   font-size: 18px;
-  padding-top: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .cover-description span{
@@ -145,4 +145,40 @@ body{
 .btn-blue:hover{
   background-color: #43A230;
   color: #ffffff;
+}
+.skills-wrapper{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+.skills-text{
+  text-transform: uppercase;
+  color: #606060;
+  font-weight: 700;
+  margin: 10px 0;
+  padding: 10px 0;
+  overflow: hidden;
+
+}
+.skills-name{
+  float: left;
+
+}
+.skills-score{
+  float: right;
+}
+
+/*Creamos la barra de progreso*/
+
+.skills-bar{
+  width: 100%;
+  height: 30px;
+  background: #9e9e9e;
+}
+
+.skills-bar-fulling{
+  background-color: #43A230;
+  height: 30px;
+  display: inline-block;
 }
