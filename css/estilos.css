@@ -169,7 +169,7 @@ body{
   float: right;
 }
 
-/*Creamos la barra de progreso*/
+/*Creamos la barra de habilidades*/
 
 .skills-bar{
   width: 100%;
@@ -181,4 +181,43 @@ body{
   background-color: #43A230;
   height: 30px;
   display: inline-block;
+}
+
+/*Damos diseño al portafolio*/
+.works-wrapper{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.works-item{
+  display: inline-block;
+  width: 31%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background: #ffffff;
+  margin-top: 10px;
+  text-align: left;
+}
+.works-item-img{
+  width: 100%;
+}
+.works-item-description .btn-blue{
+  display: block;
+}
+.works-item-description{
+  padding: 10px;
+}
+.work-item-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #43A230;
+}
+.work-item-client{
+  font-size: 18px;
+}
+.work-item-client a{
+  text-decoration: none;
+  font-weight: 700;
+  color: #765bf6;
 }
