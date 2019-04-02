@@ -221,3 +221,41 @@ body{
   font-weight: 700;
   color: #765bf6;
 }
+.contact-form{
+  max-width: 1200px;
+  margin-left:auto;
+  margin-right: auto;
+}
+.contact-row{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.contact-column{
+  width: 45%;
+}
+.contact-column.left{
+  float: left;
+}
+.contact-column.right{
+  float: right;
+}
+.contact-column label{
+  color: #606060;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+
+}
+.contact-column .contac-input-text{
+  background: #ffffff;
+  border: 0px;
+  border-bottom: 3px solid #43A230;
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
