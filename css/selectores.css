@@ -4,7 +4,9 @@
     margin: 5px;
 }
 /* Selectores de etiqueta */
-
+.body-color{
+  background-color: black;
+}
 header{
   background-color: green;
   color: white;

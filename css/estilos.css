@@ -5,10 +5,10 @@
 body{
   font-family: sans-serif;  /*Cambia el estilo de letra */
   color: #3333333;
-  background-color: #eeeeee;
+  background-color: black;
 }
 .header{
-  background-color: #43A230;
+  background-color: Black;
 }
 
 .header-wrapper{
@@ -100,7 +100,7 @@ body{
 }
 
 .title-underline{
-  color: #606060;
+  color: #ffffff;
   text-align: center;
   font-size: 26px;
   text-transform: uppercase;
@@ -116,7 +116,8 @@ body{
 }
 
 .cover-description{
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: black;
   padding: 10px;
   font-size: 18px;
   max-width: 1200px;
